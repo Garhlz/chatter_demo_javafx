@@ -1,0 +1,83 @@
+/* chatstyles.css */
+
+.chat-root {
+    -fx-background-color: linear-gradient(to bottom right, #ffe6f0, #fff5fb);
+    -fx-padding: 10px;
+}
+
+/* 顶部栏 */
+.chat-header {
+    -fx-background-color: #ffcce6;
+    -fx-padding: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 192, 203, 0.5), 5, 0.3, 0, 2);
+}
+
+.chat-header-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #d63384;
+    -fx-font-family: "Comic Sans MS", cursive;
+    -fx-font-weight: bold;
+}
+
+/* 主聊天窗口 */
+.chat-display {
+    -fx-background-color: #fff0f5;
+    -fx-border-color: #ff99cc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* 聊天输入框 */
+.chat-input {
+    -fx-background-color: #fff0f5;
+    -fx-border-color: #ffb6c1;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-text-fill: #d63384;
+}
+
+/* 通用主按钮 */
+.button {
+    -fx-background-color: #ff66b2;
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 105, 180, 0.3), 5, 0.3, 0, 2);
+}
+.button:hover {
+    -fx-background-color: #ff85c1;
+}
+
+/* 次级按钮（Clear） */
+.secondary-button {
+    -fx-background-color: #ffb6c1;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 182, 193, 0.3), 5, 0.3, 0, 2);
+}
+.secondary-button:hover {
+    -fx-background-color: #ffc0cb;
+}
+
+/* 状态栏 */
+.status-bar {
+    -fx-text-fill: #aa4a78;
+    -fx-font-size: 12px;
+    -fx-padding: 4px;
+    -fx-font-style: italic;
+}
